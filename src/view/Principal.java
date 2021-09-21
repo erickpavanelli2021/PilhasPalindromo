@@ -25,9 +25,11 @@ public class Principal {
 		validaStr = pC.comparaPalavras(entrada, inverte);
 		
 		if(validaStr) {
-			System.out.println("A palavra " +entrada+ " é igual a "+inverte+ " então é um palíndromo");
+//			System.out.println("A palavra " +entrada+ " é igual a "+inverte+ " então é um palíndromo");
+			JOptionPane.showMessageDialog(null, "A palavra " +entrada+ " é igual a "+inverte+ " então é um palíndromo");
 		}else {
-			System.out.println("A palavra " +entrada+ " não é igual a "+inverte+ " então não é um palíndromo");
+//			System.out.println("A palavra " +entrada+ " não é igual a "+inverte+ " então não é um palíndromo");
+			JOptionPane.showMessageDialog(null, "A palavra " +entrada+ " não é igual a "+inverte+ " então não é um palíndromo");
 		}
 	}
 
